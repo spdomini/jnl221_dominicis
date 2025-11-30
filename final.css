@@ -1,18 +1,25 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #lightblue;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
+	<style>
+body {
+background-image: url('https://www.syracuse.com/resizer/ZfvUwQ6mfvhoBpRClum9wk6fnqA=/700x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/TDDVREL4NNA53CXIC6UAUDTHDI.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
 }
 .header {
 	height: auto;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 20px;
 	text-align: center;
-	font-family: 'Georgia', serif;
-	background-color: black;
+	font-family: 'Times New Roman', serif;
+	background-color: lightcoral;
 }
 h4 {
 	font-style: italic;
@@ -28,14 +35,14 @@ h3 {
 @media only screen and (max-width: 767px)
 {
  .list {
- 	float: none;
+ 	float: right;
  	min-width: 90%;
- 	margin-left: 10px;
+ 	margin-left: 5%;
  	margin-bottom: 30px;
  	margin-top: 30px;
  }
  iframe {
  	min-width: 90%;
- 	margin-right: 10px;
+ 	margin-right: 5%;
  }
 }
